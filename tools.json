@@ -1,0 +1,63 @@
+{
+  "site": {
+    "name": "Bench Tools",
+    "tagline": "Engineering calculators and simulators that run in your browser. Free, no account, offline once opened.",
+    "owner": "Bi0MedEngr",
+    "url": "https://bi0medengr.github.io/"
+  },
+  "groups": [
+    { "id": "motion", "name": "Motion and mechanisms" },
+    { "id": "design", "name": "Structures and machine design" },
+    { "id": "energy", "name": "Heat, magnetism and electronics" }
+  ],
+  "tools": [
+    {
+      "slug": "motion-bench", "dir": "motion_bench", "name": "Motion Bench", "group": "motion",
+      "accent": "#0f766e", "accentDark": "#2dd4bf",
+      "blurb": "Planar linkage and mechanism simulator. Draw links, pins, sliders, springs, dampers and cams, drive them, and get motion, joint forces, motor torque, bar diagrams and frequency response.",
+      "labs": ["Linkages", "Cams", "Dynamics", "Joint forces", "Vibration"]
+    },
+    {
+      "slug": "kinematics-bench", "dir": "kinematics_bench", "name": "Kinematics Bench", "group": "motion",
+      "accent": "#6250d6", "accentDark": "#9085e9",
+      "blurb": "Projectiles with air drag, ramps with friction, roller-coaster tracks you shape by hand, large-swing pendulums and collisions, with energy bookkeeping.",
+      "labs": ["Projectile", "Ramp", "Track", "Pendulum", "Collision"]
+    },
+    {
+      "slug": "beam-bench", "dir": "beam_bench", "name": "Beam Bench", "group": "design",
+      "accent": "#1d5fd1", "accentDark": "#6ea8ff",
+      "blurb": "Shear, moment, axial force and deflection diagrams for beams and 2D frames, determinate or indeterminate, with the hand calculation written out.",
+      "labs": ["Beams", "Frames", "Distributed loads", "Hinges"]
+    },
+    {
+      "slug": "spring-bench", "dir": "spring_bench", "name": "Spring Bench", "group": "design",
+      "accent": "#b45309", "accentDark": "#f5a524",
+      "blurb": "Compression, extension and torsion spring design: rate, corrected stresses, solid height, buckling, surge and fatigue, with a pass/fail checklist and McMaster-Carr import.",
+      "labs": ["Compression", "Extension", "Torsion", "Fatigue"]
+    },
+    {
+      "slug": "solid-bench", "dir": "solid_bench", "name": "Solid Bench", "group": "design",
+      "accent": "#4338ca", "accentDark": "#a5b4fc",
+      "blurb": "A basic 3D modeler: sketch, extrude, revolve, join and cut, with exact mass properties. Imports STL, 3MF and OBJ; exports STL.",
+      "labs": ["Sketch", "Extrude and revolve", "Mass properties", "Measure"]
+    },
+    {
+      "slug": "thermo-bench", "dir": "thermo_bench", "name": "Thermo Bench", "group": "energy",
+      "accent": "#c2410c", "accentDark": "#fb923c",
+      "blurb": "Gas power cycles on P-v and T-s diagrams, a psychrometric chart, heat exchanger rating and sizing, and heater warm-up under thermostat or PI control.",
+      "labs": ["Gas cycles", "Moist air", "Heat exchanger", "Warm-up"]
+    },
+    {
+      "slug": "magnet-bench", "dir": "magnet_bench", "name": "Magnet Bench", "group": "energy",
+      "accent": "#be123c", "accentDark": "#fb7185",
+      "blurb": "Exact fields and flux lines of coils and magnets, the forces between them, electromagnets with saturation, eddy-current braking and skin depth.",
+      "labs": ["Fields", "Electromagnet", "Eddy brake", "Skin depth"]
+    },
+    {
+      "slug": "amp-bench", "dir": "amp_bench", "name": "Amp Bench", "group": "energy",
+      "accent": "#b45309", "accentDark": "#fbbf24",
+      "blurb": "Plan an audio amplifier before buying parts: power and SPL, tube load lines, class AB and class D output stages, power supplies and output transformers.",
+      "labs": ["Power and SPL", "Tube stage", "Class AB", "Class D", "Power supply", "Output transformer"]
+    }
+  ]
+}
